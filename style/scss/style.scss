@@ -175,18 +175,23 @@ input[type="checkbox"] {
 }
 
 input[type="radio"] {
-	/* Positioning */
-	
+    /* Positioning */
+    
 	/* Display & Box Modal */
 	float: right;
-	width: 15px;
-	height: 15px;
+	width: 11px;
+	height: 13px;
 	margin: 0 1px 10px 1px;
-	border: 1px solid black;
-	border-radius: 6px;
 
 	/* Other */
-	background: white;
+}
+
+input[type="radio"] {
+    content: url(../../img/radio.png) no-repeat center;
+}
+
+input[type="radio"]:checked, input[type="radio"]:hover, input[type="radio"].checked {
+    content: url(../../img/radio-checked.png) no-repeat center;
 }
 
 .details {
