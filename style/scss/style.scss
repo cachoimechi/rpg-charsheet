@@ -1,0 +1,483 @@
+/**
+  * CSS Reset
+  * http://meyerweb.com/eric/tools/css/reset/ 
+  * v2.0 | 20110126
+  * License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/**
+ * Sitewide
+ */
+
+html {
+	background: #ccc;
+}
+
+/**
+ * Character Sheets
+ */
+
+/* Vampire */
+
+#vampire-sheet {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 960px;
+	padding: 10px;
+	margin: 20px auto;
+	border: 1px solid white;
+	overflow: hidden;
+
+	/* Other */
+	background: #fafafa;
+}
+
+#vampire-logo {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 250px;
+	height: 136px;
+	margin: 0 auto 20px auto;
+
+	/* Other */
+	background: url(../../img/vampire-logo.png) no-repeat center;
+}
+
+h1 {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	margin: 10px 0;
+	border-bottom: 2px solid black;
+
+	/* Other */
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	margin: 10px 0 5px 0;
+
+	/* Other */
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	margin: 0 0 10px 0;
+
+	/* Other */
+	text-align: center;
+	font-size: 16px;
+}
+
+p {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	margin: 0 0 10px 0;
+	overflow: hidden;
+
+	/* Other */
+}
+
+label {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	margin: 0 5px 0 0;
+	float: left;
+
+	/* Other */
+}
+
+input[type="text"] {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	border: 0;
+	border-bottom: 1px solid black;
+	margin: 0 5px 10px 0;
+	width: 200px;
+
+	/* Other */
+	background: #fafafa;
+}
+
+input[type="checkbox"] {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	float: right;
+	width: 15px;
+	height: 15px;
+	margin: 0 1px 0 1px;
+
+	/* Other */
+}
+
+input[type="radio"] {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	float: right;
+	width: 15px;
+	height: 15px;
+	margin: 0 1px 10px 1px;
+	border: 1px solid black;
+	border-radius: 6px;
+
+	/* Other */
+	background: white;
+}
+
+.details {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 300px;
+	float: left;
+
+	/* Other */
+}
+
+#name {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 230px;
+
+	/* Other */
+}
+
+#player {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 229px;
+
+	/* Other */
+}
+
+#chronicle {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 208px;
+
+	/* Other */
+}
+
+#concept {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 215px;
+
+	/* Other */
+}
+
+#virtue {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 229px;
+
+	/* Other */
+}
+
+#vice {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 240px;
+
+	/* Other */
+}
+
+#clan {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 235px;
+
+	/* Other */
+}
+
+#covenant {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 205px;
+
+	/* Other */
+}
+
+#coterie {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 221px;
+
+	/* Other */
+}
+#attributes	{
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	clear: both;
+	margin: 10px 0;
+
+	/* Other */
+}
+
+.attr-col {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	float: left;
+	margin: 10px 63px;
+	padding: 15px 10px 0px 10px;
+	border: 1px solid black;
+
+	/* Other */
+}
+
+#skills {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	width: 250px;
+	padding: 0 10px;
+	float: left;
+
+	/* Other */
+
+	p {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		margin-bottom: 7px;
+
+		/* Other */
+	}
+}
+
+#other-traits {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	float: left;
+	padding: 0 0 0 10px;
+	width: 687px;
+	border-left: 1px solid black;
+
+	/* Other */
+}
+
+#traits-col1 {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	float: left;
+	width: 300px;
+	
+	/* Other */
+
+	p {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		margin-bottom: 5px;
+
+		/* Other */
+	}
+
+	input[type="text"] {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		width: 205px;
+
+		/* Other */
+	}
+
+	input[type="text"].flaw {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		width: 100%;
+
+		/* Other */
+	}
+
+	strong {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		float: left;
+		margin: 0 5px 0 0;
+
+		/* Other */
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	.first {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		margin-top: 30px;
+		
+		/* Other */
+	}
+
+	#size {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		width: 259px;
+
+		/* Other */
+	}
+
+	#defense {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		width: 230px;
+
+		/* Other */
+	}
+
+	#init-mod {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		width: 179px;
+		
+		/* Other */
+	}
+
+	#speed {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		width: 244px;
+
+		/* Other */
+	}
+
+	#exp {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		width: 204px;
+
+		/* Other */
+	}
+
+	#armor {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		width: 237px;
+
+		/* Other */
+	}
+}
+
+#traits-col2 {
+	/* Positioning */
+	
+	/* Display & Box Modal */
+	float: left;
+	width: 350px;
+	padding-left: 146px;
+
+	/* Other */
+
+	h2 {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+
+		/* Other */
+	}
+
+	p {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		margin-bottom: 0;
+
+		/* Other */
+	}
+
+	.vitae2 {
+		/* Positioning */
+		
+		/* Display & Box Modal */
+		margin-top: 10px;
+
+		/* Other */
+	}
+}
