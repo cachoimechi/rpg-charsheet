@@ -167,11 +167,19 @@ input[type="checkbox"] {
 	
 	/* Display & Box Modal */
 	float: right;
-	width: 15px;
-	height: 15px;
+	width: 12px;
+	height: 12px;
 	margin: 0 1px 0 1px;
 
 	/* Other */
+}
+
+input[type="checkbox"] {
+    content: url(../../img/checkbox.png) no-repeat center;
+}
+
+input[type="checkbox"]:checked, input[type="checkbox"]:hover, input[type="checkbox"].checked {
+    content: url(../../img/checkbox-checked.png) no-repeat center;
 }
 
 input[type="radio"] {
@@ -179,8 +187,8 @@ input[type="radio"] {
     
 	/* Display & Box Modal */
 	float: right;
-	width: 11px;
-	height: 13px;
+	width: 12px;
+	height: 12px;
 	margin: 0 1px 10px 1px;
 
 	/* Other */
@@ -456,17 +464,9 @@ input[type="radio"]:checked, input[type="radio"]:hover, input[type="radio"].chec
 	/* Display & Box Modal */
 	float: left;
 	width: 350px;
-	padding-left: 146px;
+	padding-left: 180px;
 
 	/* Other */
-
-	h2 {
-		/* Positioning */
-		
-		/* Display & Box Modal */
-
-		/* Other */
-	}
 
 	p {
 		/* Positioning */
